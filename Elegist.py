@@ -3,7 +3,7 @@ import tkinter as tk
 
 # Define lists of words for each part of the 
 
-articles= [ "a", "the", "an", "your", "our", ""]
+articles= [ "", "the", "your", "our", "", "", "my", "its"]
 
 nouns = [
     "moon", "heart", "sun", "ocean", "tree", "flower", "song", "bird", "river",
