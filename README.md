@@ -1,7 +1,8 @@
 # Elegist
-My first ever python project, generates a poem on a push of a button.
+My first ever python project, generates a short stanza on a push of a button.
 
 - If u wanna help me figure this out.. Shoot me a message on discord (@rubyrawr)
+  Im currently working on a title function, generating a random title, cant figure it out.
 
 **Links**
 - Replit
