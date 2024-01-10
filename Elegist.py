@@ -3,6 +3,8 @@ import tkinter as tk
 
 # Define lists of words for each part of the 
 
+articles= [ "a", "the", "an", "your", "our", ""]
+
 nouns = [
     "moon", "heart", "sun", "ocean", "tree", "flower", "song", "bird", "river",
     "cloud", "star", "rain", "wind", "sea", "stone", "path", "dream", "night",
@@ -76,7 +78,7 @@ adverbs = [
 
 # Function to generate a random line of the poem
 def generate_line():
-  line = f"{random.choice(adjectives)} {random.choice(nouns)} {random.choice(verbs)} {random.choice(adverbs)}"
+  line = f"{random.choice(articles)} {random.choice(adjectives)} {random.choice(nouns)} {random.choice(verbs)} {random.choice(adverbs)}"
   return line
 
 
@@ -86,7 +88,7 @@ def generate_poem(num_lines):
   return "\n".join(poem)
 
 
-# Function to update the poem text in the GUI and copy to clipboard
+# Function to update the poem text
 def update_poem():
     poem = generate_poem(5)
     poem_text.set(poem)
@@ -116,3 +118,4 @@ update_poem()
 
 # Start the Tkinter event loop
 root.mainloop()
+
