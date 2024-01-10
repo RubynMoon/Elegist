@@ -13,5 +13,5 @@ My first ever python project, generates a short stanza on a push of a button.
 Thank you for checking this out!
 
 UPDATE - Version 0.1
-- Added 'articles'
+- Added 'articles' (such as the, our, your, etc.)
 - minor UI fixes
